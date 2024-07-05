@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #fff;
+}
+
+body{
+    background-color: #2c2c2c;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li a{
+    margin: 0px 5px;
+    border: 1px solid#fff;
+    padding: 2px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.logo{
+    border: 2px solid white;
+    padding: 10px 5px;
+}
+
+.SignUp{
+    background-color: white;
+    color: black;
+}
+
+.SignUp:hover{
+    background-color: gray;
+}
+
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 0px 100px;
+    flex-wrap: wrap;
+}
+
+main h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+main h2:hover{
+    font-size: 34px;
+}
+
+main p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 31.5px;
+    margin: 30px 0px;
+}
+
+main p:hover{
+    font-size: 17px;
+}
+
+.contentLeft{
+    flex: 1;
+}
+
+.contentMid{
+    flex: 2;
+}
+
+.contentRight{
+    flex: 1;
+}
+
+.mercury{
+    max-width: 250px;
+    height: auto;
+}
+
+.mercury:hover{
+    rotate: 15deg;
+}
+
+.btn{
+    padding: 15px 30px;
+    background: #fff;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.btn:hover{
+    background: gray;
+}
